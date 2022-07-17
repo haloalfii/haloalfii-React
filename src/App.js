@@ -4,6 +4,7 @@ import { RecentWork } from "./components/RecentWork";
 import { useState } from "react";
 import { Line } from "./components/Line";
 import { Skills } from "./components/Skills";
+import { Footer } from "./components/Footer";
 
 function App() {
     const [profiles, setProfiles] = useState({
@@ -22,6 +23,7 @@ function App() {
             <RecentWork />
             <Line />
             <Skills />
+            <Footer />
         </div>
     );
 }
