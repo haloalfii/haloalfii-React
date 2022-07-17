@@ -19,6 +19,7 @@ function App() {
             <Profile profiles={profiles} />
             <Line />
             <RecentWork />
+            <Line />
         </div>
     );
 }
