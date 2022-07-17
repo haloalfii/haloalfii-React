@@ -9,13 +9,13 @@ export const Skills = () => {
                 <div className='col-lg-3'></div>
                 <div className='col-lg-6 d-flex justify-content-between'>
                     <h3 className='text-white mx-3 '>
-                        <i class='bi bi-code-slash'></i>
+                        <i className='bi bi-code-slash'></i>
                     </h3>
                     <h3 className='text-white mx-3 '>
-                        <i class='bi bi-clipboard-data-fill'></i>
+                        <i className='bi bi-clipboard-data-fill'></i>
                     </h3>
                     <h3 className='text-white mx-3 '>
-                        <i class='bi bi-github'></i>
+                        <i className='bi bi-github'></i>
                     </h3>
                 </div>
                 <div className='col-lg-3'></div>

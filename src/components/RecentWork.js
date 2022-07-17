@@ -32,7 +32,9 @@ export const RecentWork = () => {
                 <div className='col-lg-6 d-flex justify-content-center'>
                     <ol className='list-group list-group-numbered'>
                         {works.map((work) => (
-                            <li className='list-group-item bg-transparent text-white d-flex justify-content-between align-items-start'>
+                            <li
+                                key={work.id}
+                                className='list-group-item bg-transparent text-white d-flex justify-content-between align-items-start'>
                                 <div className='ms-2 me-auto'>
                                     <div className=''>
                                         <div className=''>
